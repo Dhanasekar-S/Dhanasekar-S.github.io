@@ -10,7 +10,7 @@ title: Publications
 <h3> Dhanasekar Sundararaman, Sudharshan Srinivasan </h3>
 <h4>Appeared in the <b>Springer</b> Proceedings for SocInfo 2017, Oxford, UK</h4>
 <i>One among the very few undergrads (probably the only one) to get a paper accepted at this conference held at Oxford. Many were into their Phd's, postdocs and some were professors.</i>
-<h3><a href="https://Dhanasekar-S.github.io/research/1Twigraph.pdf" target="_blank">Pdf</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/Dhanasekar-S/Twigraph" target="_blank">Code base and Results</a></h3>
+<h3><a href="https://link.springer.com/chapter/10.1007/978-3-319-67256-4_26" target="_blank">Pdf</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/Dhanasekar-S/Twigraph" target="_blank">Code base and Results</a></h3>
 <b>Abstract:</b>
 The social media craze is on an ever increasing spree, and people are connected with each other like never before, but these vast connections are visually unexplored. We propose a methodology Twigraph to explore the connections between persons using their Twitter profiles. First, we propose a hybrid approach of recommending social media profiles, articles, and advertisements to a user.
 The profiles are recommended based on the similarity score between the user profile, and profile under evaluation. The similarity between a set of profiles is investigated by finding the top influential words thus causing a high similarity through an Influence Term Metric for each word. Then, we group profiles of various domains such as politics, sports, and entertainment based on the similarity
@@ -26,7 +26,7 @@ score through a novel clustering algorithm. The connectivity between profiles is
 <h4>Appeared in the <b>Springer</b> Proceedings for IFIP Conference on e-Business, e-Services and e-Society</h4>
 
 <i> Acceptance rate < 40%. One among the very few undergrads</i>
-<h3><a href="https://Dhanasekar-S.github.io/research/2ANN_Bus.pdf" target="_blank">Pdf</a> </h3>
+<h3><a href="https://link.springer.com/chapter/10.1007/978-3-319-68557-1_27" target="_blank">Pdf</a> </h3>
   <b>Abstract:</b>
 In this work, an efficient vehicle tracking system is designed and implemented for tracking the movement of any vehicle from any location and time. The proposed system uses popular technology that combines a smartphone application with a microcontroller that is inexpensive compared to others. The users will be able to continuously monitor a moving vehicle on demand using the Smartphone application and determine the estimated distance and time for the vehicle to arrive at a given destination. Apart from this, the system is designed further to account for the case of failing to catch one’s vehicle by dynamically suggesting a new vehicle within one’s reach with an estimated time and a route. The data collected is effectively used to predict the estimated arrival time of the vehicles using sophisticated machine learning technique Artificial Neural Networks (ANN). While there are other systems on vehicle tracking, we present a vehicle tracking, dynamic route suggestion on failing to catch one’s vehicle and intelligent arrival time prediction system together making it a comprehensive system for users. The feasibility and effectiveness of the system are presented through experimental results of the vehicle tracking system and some experiences on practical implementations.<br>
 <br>
@@ -50,22 +50,10 @@ High-skilled immigrants are a very important factor in US innovation and entrepr
 
 <h3>Dhanasekar Sundararaman, Priya Arora, Vishwanath Seshagiri</h3>
 <h4>To appear in the <b>ACM</b> Proceedings of the 2018 International Conference on Machine Learning and Soft Computing</h4>
-<h3><a href="https://Dhanasekar-S.github.io/research/TweetIT.pdf" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Twitter-Topic-Detection" target="_blank">Code base and Results</a></h3>
+<h3><a href="https://dl.acm.org/citation.cfm?id=3184093" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Twitter-Topic-Detection" target="_blank">Code base and Results</a></h3>
 <b>Abstract:</b> 
 Twitter, a microblogging service, is today’s most popular platform for communication in the form of short text messages, called
 Tweets. Users use Twitter to publish their content either for expressing concerns on information news or views on daily conversations. When this expression emerges, they are experienced by the worldwide distribution network of users and not only by the interlocutor(s). Depending upon the impact of the tweet in the form of the likes, retweets and percentage of followers increases for the user considering a window of time frame, we compute attention factor for each tweet for the selected user profiles. This factor is used to select the top 1000 Tweets, from each user profile, to form a document. Topic modelling is then applied to this document to determine the intent of the user behind the Tweets. After topics are modeled, the similarity is determined between the BBC news dataset containing the modeled topic, and the user document under evaluation. Finally, we determine the top words for a user which would enable us to find the topics which garnered attention and has been posted recently. The experiment is performed using more than 1.1M Tweets from around 500 Twitter profiles spanning Politics,Entertainment, Sports etc. and hundreds of BBC news articles. The results show that our analysis is efficient enough to enable us to find the topics which would act as a suggestion for users to get higher popularity rating for the user in the future.
-<br>
-<br>
-
-<h1>How much is my car worth? A methodology for predicting used cars prices using Random Forests</h1>
-
-<h2>Future of Information and Communication Conference, Singapore</h2>
-
-<h3>Nabarun Pal, Priya Arora, Dhanasekar Sundararaman, Puneet Kohli, Sumanth</h3>
-<h4>To appear in the <b>IEEE</b> Proceedings of the 2018 Future of Information and Communication Conference</h4>
-<h3><a href="https://Dhanasekar-S.github.io/research/5Ficc.pdf" target="_blank">Pdf</a> </h3>
-<b>Abstract:</b> 
-Cars are being sold more than ever. Developing countries adopt the lease culture instead of buying a new car due to affordability. Therefore, the rise of used cars sales is exponentially increasing. Car sellers sometimes take advantage of this scenario by listing unrealistic prices owing to the demand. Therefore, arises a need for a model that can assign a price for a vehicle by evaluating its features taking the prices of other cars into consideration. In this paper, we use supervised learning method namely Random Forest to predict the prices of used cars. The model has been chosen after careful exploratory data analysis to determine the impact of each feature on price. A Random Forest with 500 Decision Trees were created to train the data. From experimental results, the training accuracy was found out to be 95.82%, and the testing accuracy was 83.63%. The model can predict the price of cars accurately by choosing the most correlated features.
 <br>
 <br>
 
@@ -75,7 +63,7 @@ Cars are being sold more than ever. Developing countries adopt the lease culture
 
 <h3>Dhanasekar Sundararaman, Vishwanath Seshagiri, Balaji Ramesh, Priya Arora</h3>
 <h4>To appear in the <b>ACM</b> Proceedings of 7th International Conference on Intelligent Computing and Applications</h4>
-<h3><a href="https://Dhanasekar-S.github.io/research/4YouTree%20Paper.pdf" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Youtube-View-Predictor" target="_blank">Code base and Results</a></h3>
+<h3><a href="https://dl.acm.org/citation.cfm?id=3177467" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Youtube-View-Predictor" target="_blank">Code base and Results</a></h3>
 <b>Abstract:</b> 
 The rise of social media usage in the form of multimedia is on an exponential increase lately owing to the increased internet bandwidths in the recent past. As a result, people communicate in the form of videos and images a lot more than ever. One such video sharing and content developer platform is Youtube. Youtube have many features on video analytics in the form of recommendation systems, monetization etc. It also offers many features for developers to evaluate their content and offer insights on the performance of their videos. Though these features are available, there is not a feature for developers to evaluate their content based on the performance of other’s videos, which share the same nature of content, the similarity between any two videos. Here, the similarity between two videos has a statistical measure apart from the content, which includes the description and comments of a video. Thus, we propose statistical and textual similarity analysis between a query video and a range of videos to determine the most similar videos both textually and statistically. The statistical similarity is evident from the number of derived features extracted from a video and the textual similarity is found by analyzing the text data from the description and comments of a video. Experimental results show that, the resultant similar videos are highly representative of both the statistical and textual similarity and can be used as a measure to compare two videos.
 <br>
@@ -87,7 +75,7 @@ My work was primarily focused on developing a co-design automation framework for
 
 
 
-Research Papers for IEEE Transactions on Computers:
+Research Papers for IEEE Transactions on Computers(Not submitted):
 <h1>"High Performance Computing Co-Design Space I : Application Complexity Design space, Architectural Design Space and Parallel Programming Design Space"</h1>
 
 <h3>Anirudh Seshadri, Dhanasekar Sundararaman, Sudharshan Srinivasan</h3>
