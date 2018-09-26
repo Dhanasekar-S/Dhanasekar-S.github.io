@@ -6,7 +6,7 @@ title: Experiences
 <table style="width:100%">
 
 <tr>
-<td><h3> Ph.D Student at Duke University in Machine Learning, Durham, NC</h3></td><td><h3>2018-</h3></td><td><h3>Chennai, India</h3></td>
+<td><h3> Ph.D Student at Duke University in Machine Learning</h3></td><td><h3>2018-</h3></td><td><h3>Durham, North Carolina, USA</h3></td>
 </tr>
 
 <tr>
