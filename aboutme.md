@@ -15,12 +15,7 @@ Perhaps the most exciting moment in my life came when I was invited to present m
   
   During my undergrad, I worked as part-time Research Assistant at WARFT, a research institute recognized by Govt of India. I worked on Workloads and Application complexity analysis and our work for almost two years enabled us to write three full-length journal papers. I was exposed to working on ML for the formation of application specific heterogeneous many cores using Clustering.
   
-  Now, I’m working on a project, where I predict or suggest topics for Twitter users to gain maximum attention or retweets based on Text Mining and on a decision tree based recommendation engine. I have been suggested by reviewers to extend “Twigraph” as a continuing research work /paper owing to its scope. In the near future, I plan to work on that.
-  
-  I also have demonstrated work experience on ML. I worked for two startups in the field of social media mining for gathering insights. I worked for UCB, California remotely as an Intern. Right now, I’m headed to Michigan State University, where I will be working with my professor on some cool projects pertaining ML for the next few months.
-  
-I’m a prospective Ph.D. student looking for cool advisors. I would be more than happy to send any more details pertaining to my projects like code, extensive results etc upon your request. Please contact me back if you find my profile interesting!
-
+I'm starting my Ph.D this Fall(2018) at Duke University!
 
 <h2>Education</h2>
 
