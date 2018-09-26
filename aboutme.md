@@ -2,7 +2,6 @@
 layout: page
 title: About me
 ---
-My <a href='https://dhanasekar-s.github.io/CV_Dhanasekar.pdf' target="_blank"> Curriculum Vitae</a> <br>
 <a href='https://scholar.google.co.in/citations?user=tI69S80AAAAJ&hl=en&authuser=1' target="_blank"> Google Scholar</a>
 
   I’m an avid learner and became a Machine Learning enthusiast ever since my mid-undergrad years. Upon completing several online courses from people who matter the most (Professors) in the field of ML, I quickly realized that a research career on ML would be my ideal choice. I had a basic understanding of all the concepts in ML and that helped me to start working on research projects which eventually turned into research publications.
