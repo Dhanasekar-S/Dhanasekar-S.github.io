@@ -2,7 +2,13 @@
 layout: page
 title: Projects
 ---
-<h3>Using Twitter to find Top Influential words across profiles | (2017-Present)</h3>
+<h3>Using  AmazonQuestion-AnswerRetrieval | (2018-Present)</h3>
+The goal of this project is to build and evaluate a simple question-answering system on the AmazonQA dataset based on the sentence embeddings of questions and answers (i.e. without sequential structural information contained in sentences). Sentence embeddings are easy to use because they are quite fast to compute (often linear in number of words in the sentence), and they contain rich semantic information about the sentence in a compressed representation, as opposed to sequences of word embeddings which are often time-consuming to work with. By using a pre-trained architecture ,wecanembedquestion-answersentencepairsandtreatquestionansweringasaretrievalproblem whereby a user asks a question, and a trained system retrieves an existing response from an extensive training dataset, as opposed to a generation problem whereby the system is expected to generate a novel response, which is often technically challenging and time-consuming. We wish to evaluate the performance of these simpler retrieval methods on a question answering task by comparing 2 different approaches. We also introduce a method to retrieve only the relevant responses based on any side information (like reviews or description) that we may have. <br>
+
+<h3><a href="https://Dhanasekar-S.github.io/research/ECE_590__NLP_Final_Project.pdf" target="_blank">Project PDF</a></h3>
+<br>
+
+<h3>Using Twitter to find Top Influential words across profiles | (2017)</h3>
 This work proposes a hybrid approach of recommending social media profiles, articles, and advertisements to a query user. The profiles are recommended based on the similarity score between the query profile, and profile under evaluation. The similarity between a set of profiles is envisaged by identifying the top influential words thus causing a high similarity through an influential score metric for each word. Finally, we analyze the top influential words over a set of profiles through clustering by keeping track of the chronological order of entry of that profile into that cluster. The proposed method was implemented on datasets comprising 1.5 M Tweets obtained from Twitter. Experimental results show that the resultant influential words were highly representative of the relationship between two profiles or a set of profiles and were devoid of stop words and other less representative words.
 The work was presented at SocInfo, University of Oxford<br>
 <br>
