@@ -4,7 +4,7 @@ title: Publications
 ---
 
 <h1>Learning Compressed Sentence Representations for On-Device Text Processing</h1>
-<h2><a href="http://www.acl2019.org/EN/index.xhtml" target="_blank">Association for Computational Linguistics 2019</a> ,Florence, Italy</h2>
+<h2><a href="http://www.acl2019.org/EN/index.xhtml" target="_blank">Association for Computational Linguistics 2019</a>, Florence, Italy</h2>
 
 <h3> Dinghan Shen, Pengyu Cheng, Dhanasekar Sundararaman, Xinyuan Zhang, Qian Yang, Meng Tang, Asli Celikyilmaz, Lawrence Carin</h3>
 <h4>Appeared in the Proceedings for ACL 2019</h4>
@@ -20,7 +20,6 @@ Vector representations of sentences, trained on massive text corpora, are widely
 
 <h3> Dhanasekar Sundararaman, Sudharshan Srinivasan </h3>
 <h4>Appeared in the <b>Springer</b> Proceedings for SocInfo 2017, Oxford, UK</h4>
-<i>One among the very few undergrads (probably the only one) to get a paper accepted at this conference held at Oxford. Many were into their Phd's, postdocs and some were professors.</i>
 <h3><a href="https://link.springer.com/chapter/10.1007/978-3-319-67256-4_26" target="_blank">Pdf</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/Dhanasekar-S/Twigraph" target="_blank">Code base and Results</a></h3>
 <b>Abstract:</b>
 The social media craze is on an ever increasing spree, and people are connected with each other like never before, but these vast connections are visually unexplored. We propose a methodology Twigraph to explore the connections between persons using their Twitter profiles. First, we propose a hybrid approach of recommending social media profiles, articles, and advertisements to a user.
@@ -60,7 +59,6 @@ High-skilled immigrants are a very important factor in US innovation and entrepr
 <h2>International Conference on Machine Learning and Soft Computing, Vietnam</h2>
 
 <h3>Dhanasekar Sundararaman, Priya Arora, Vishwanath Seshagiri</h3>
-<h4>To appear in the <b>ACM</b> Proceedings of the 2018 International Conference on Machine Learning and Soft Computing</h4>
 <h3><a href="https://dl.acm.org/citation.cfm?id=3184093" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Twitter-Topic-Detection" target="_blank">Code base and Results</a></h3>
 <b>Abstract:</b> 
 Twitter, a microblogging service, is today’s most popular platform for communication in the form of short text messages, called
@@ -73,52 +71,8 @@ Tweets. Users use Twitter to publish their content either for expressing concern
 <h2>International Conference on Intelligent Computing and Applications, Australia</h2>
 
 <h3>Dhanasekar Sundararaman, Vishwanath Seshagiri, Balaji Ramesh, Priya Arora</h3>
-<h4>To appear in the <b>ACM</b> Proceedings of 7th International Conference on Intelligent Computing and Applications</h4>
 <h3><a href="https://dl.acm.org/citation.cfm?id=3177467" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Youtube-View-Predictor" target="_blank">Code base and Results</a></h3>
 <b>Abstract:</b> 
 The rise of social media usage in the form of multimedia is on an exponential increase lately owing to the increased internet bandwidths in the recent past. As a result, people communicate in the form of videos and images a lot more than ever. One such video sharing and content developer platform is Youtube. Youtube have many features on video analytics in the form of recommendation systems, monetization etc. It also offers many features for developers to evaluate their content and offer insights on the performance of their videos. Though these features are available, there is not a feature for developers to evaluate their content based on the performance of other’s videos, which share the same nature of content, the similarity between any two videos. Here, the similarity between two videos has a statistical measure apart from the content, which includes the description and comments of a video. Thus, we propose statistical and textual similarity analysis between a query video and a range of videos to determine the most similar videos both textually and statistically. The statistical similarity is evident from the number of derived features extracted from a video and the textual similarity is found by analyzing the text data from the description and comments of a video. Experimental results show that, the resultant similar videos are highly representative of both the statistical and textual similarity and can be used as a measure to compare two videos.
-<br>
-<br>
-
-<h2>Research work at <a href="http://www.warftindia.org/joomla/index.php?option=com_content&view=article&id=144&Itemid=108">WAran Research FoundaTion</a></h2>
-My work was primarily focused on developing a co-design automation framework for the formation of application specific heterogeneous architecture through techniques of Machine learning. I was also responsible for the design of customizable workloads of user specified complexities and Application Cloning. This involves the analysis of parallel program applications for its various complexities to facilitate the architecture design.
-
-
-
-
-Research Papers for IEEE Transactions on Computers(Not submitted):
-<h1>"High Performance Computing Co-Design Space I : Application Complexity Design space, Architectural Design Space and Parallel Programming Design Space"</h1>
-
-<h3>Anirudh Seshadri, Dhanasekar Sundararaman, Sudharshan Srinivasan</h3>
-
-<h3><a href="https://Dhanasekar-S.github.io/research/warft1.pdf" target="_blank">Pdf</a></h3>
-
-![Research](research1.png){:class="img-responsive"}
-
-It deals with the design of Heterogeneous Many-Core Processors with an emphasis on the impact of Co-Design for achieving low power, higher performance and much better resource utilization. With the need for higher performances computing system ever increasing, it is indispensable for the architectures to be highly scalable. This scalability is achieved by employing a parallel programming language design space with built in parallel constructs pertaining to an application enabling greater scaling. While most of the current day research focuses on binding the architecture with the target application, the impact of programming languages has not been considered. The binding across the application characteristics ,namely the computational structures and communication pattern(extracted from the application complexity design space) and the target many-core architecture(the corresponding functional units, algorithm level functional units and the scalars that get fixed in the many-core architecture space ). This in turn triggers the parallel programming design space to frame the respective parallel constructs while the core types are fixed by the application specific functional units. Another important feature of the architecture proposed is its ability to run Simultaneous Execution Of Multiple Applications without Space-Time Sharing. This enables the functional units to have instructions of the same type from several applications in its pipelines stages simultaneously thereby utilizing the resources to its fullest. Thus a Co-design involving the Application, Architecture and the Parallel Programming Language is established. Though many papers suggest a co-design between the application and the architecture, most of them focus on the computation complexities of the application and tend to ignore the performance and power gain that may be achieved by analyzing the communication complexities. A model is proposed which analyses both the computation and communication aspects of the application which aids in better design of the Heterogeneous cores. Such an analysis on the communication complexities enables us to tailor make the cores for applications and thereby reducing the Inter-Core Communication and attempts at maximizing the Intra-Core communication.
-<br>
-<br>
-
-<h1>"High Performance Computing Co-Design Space II: Design Automation and Customizable Workload"</h1>
-
-<h3>Dhanasekar Sundararaman, Sudharshan Srinivasan, Anirudh Seshadri</h3>
-
-<h3><a href="https://Dhanasekar-S.github.io/research/warft2.pdf" target="_blank">Pdf</a></h3>
-
-![Research](research2.png){:class="img-responsive"}
-
-Co-design is a complex task in which application complexity design space, architecture design space, parallel language design space, simulator design space, optimizer design space(collectively called many-core co-design spaces) gets integrated through a binding process. Design and development of large scale many-core architecture using the many-core co-design spaces will be highly time consuming and it is indispensable to build a co-design automation process. The co-design automation is frame worked to comprehend the dependencies across the many-core co-design spaces and devise the logics behind these interdependencies using a set of algorithms. The software modules of these algorithms and the rest from the many-core co-design spaces interact to crop up the power-performance optimized many-core architecture. It is imperative that such many-core co-design spaces powered by an automation process have built in user customizable workload generation mechanism. The emergent many-core architecture should be subjected to benchmarking for performance, cache hierarchy, network or the scheduler comprehensively. Customizability benefits generation of complex workloads with desired computation complexity, communication complexity, control flow complexity and locality of reference under a specified distribution based on quantitative models. Because of these attributes sudden variations called computational and communication surges can be generated to bench mark deeper architectural issues like network stability. A deeper analysis of the processes involved in selecting the current benchmark workloads reveal that their lifespan is limited to a time window during which the technology driven heterogeneous many core architecture complexities vary very rapidly and with lot more challenging applications coming on. The most fundamental reason for this is that workloads need to be built on quantitative modeling of computational complexity, communicational complexity, control flow complexity and locality of reference. Further to this quantification of the workload characteristics , customizability is an another important factor to be considered such that scaling up this workload characteristics along technology time frame will be possible. None of the current day benchmark suites encompasses applications that can match the attributes of workload customizability presented in this paper.
-<br>
-<br>
-
-<h1>"High Performance Computing Co-Design Space IIl : Simulation Design Space and Optimization Design Space"</h1>
-
-<h3>Sudharshan Srinivasan, Anirudh Seshadri, Dhanasekar Sundararaman</h3>
-
-<h3><a href="https://Dhanasekar-S.github.io/research/warft3.pdf" target="_blank">Pdf</a></h3>
-
-![Research](research3.png){:class="img-responsive"}
-
-Simultaneous execution of multiple applications without space time sharing (instructions of same type but from different applications can get simultaneously pipelined within the same functional units) unlike multi-programming, augments the resource utilization to a large extent unlike the conventional systems. In such an environment, main memory bank allocation and the cache levels need to be aware of the dynamics of multiple applications execution to achieve memory system efficiency. Most importantly under the co-design methodology in which the application complexity design space, architecture design space and parallel language design space gets integrated through a binding process. Further the mechanism of many-core co-design spaces is bound to crop up different ISAs, tightly coupled to the attributes of multiple applications and the target many-core architecture. None of the current simulators like Graphite, Sniper and Gems etc. are competent enough to get merged with the concept of many-core co-design spaces. In this paper such a simulator is proposed and is driven by an analytical time model. Design-time power-performance optimization of many-core architectures essentially need to take care of simultaneous execution of multiple applications and not just a single application unlike the current optimizers. Optimization of many-core architectures meant for simultaneous execution of multiple applications without space time sharing needs to be entrenched totally on different approach which is independent of Op-Techniques. Here the optimization heuristics are committed to the attributes of the multiple applications. In the first phase of optimization, the huge initial count of functional units (multiple applications specific functional units and scalars), obtained from the many-core co-design spaces , through the complex process of co-design automation, gets power-performance optimized. In the second phase of optimization the types of cores get optimized. In the third phase the overall count of all the cores gets optimized. Optimization presented here is itself an integral part of the co-design automation. This paper also introduces such an optimizer integrated with the proposed simulator.
 <br>
 <br>
