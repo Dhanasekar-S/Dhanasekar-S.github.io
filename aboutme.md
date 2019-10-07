@@ -6,8 +6,8 @@ title: About me
 
 <h2>Education</h2>
 
-
-- B.Tech in Information Technology, <a href="http://www.ssn.edu.in/">SSN College of Engineering</a>
+- Ph.D in Machine Learning/Natural Language Processing, Duke University
+- B.Tech in Information Technology, <a href="http://www.ssn.edu.in/">SSN College of Engineering</a>, Anna University
 - Higher Secondary, 96% 
 - 10th, 95%
 
