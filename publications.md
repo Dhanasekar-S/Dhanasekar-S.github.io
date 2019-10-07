@@ -3,7 +3,18 @@ layout: page
 title: Publications
 ---
 
-![Research](research.jpg){:class="img-responsive"}
+<h1>Learning Compressed Sentence Representations for On-Device Text Processing</h1>
+<h2><a href="http://www.acl2019.org/EN/index.xhtml" target="_blank">Association for Computational Linguistics 2019</a> ,Florence, Italy</h2>
+
+<h3> Dinghan Shen, Pengyu Cheng, Dhanasekar Sundararaman, Xinyuan Zhang, Qian Yang, Meng Tang, Asli Celikyilmaz, Lawrence Carin</h3>
+<h4>Appeared in the Proceedings for ACL 2019</h4>
+<h3><a href="https://www.aclweb.org/anthology/P19-1011/" target="_blank">Pdf</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/Linear95/BinarySentEmb" target="_blank">Code base and Results</a></h3>
+<b>Abstract:</b>
+Vector representations of sentences, trained on massive text corpora, are widely used as generic sentence embeddings across a variety of NLP problems. The learned representations are generally assumed to be continuous and real-valued, giving rise to a large memory footprint and slow retrieval speed, which hinders their applicability to low-resource (memory and computation) platforms, such as mobile devices. In this paper, we propose four different strategies to transform continuous and generic sentence embeddings into a binarized form, while preserving their rich semantic information. The introduced methods are evaluated across a wide range of downstream tasks, where the binarized sentence embeddings are demonstrated to degrade performance by only about 2% relative to their continuous counterparts, while reducing the storage requirement by over 98%. Moreover, with the learned binary representations, the semantic relatedness of two sentences can be evaluated by simply calculating their Hamming distance, which is more computational efficient compared with the inner product operation between continuous embeddings. Detailed analysis and case study further validate the effectiveness of proposed methods.<br>
+<br>
+<br>
+
+
 <h1>Twigraph: Discovering and Visualizing Influential Words between Twitter Profiles</h1>
 <h2><a href="http://socinfo2017.oii.ox.ac.uk/" target="_blank">Social Informatics 2017</a> ,<a href="http://www.ox.ac.uk/" target="_blank">University of Oxford</a></h2>
 
