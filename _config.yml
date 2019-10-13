@@ -42,7 +42,7 @@ navbar-links:
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
   name: Dhanasekar Sundararaman
-  email: "firstname.lastname@duke.edu"
+  email: "dhanasekar.sundararaman@duke.edu"
   github: Dhanasekar-S    # eg. daattali
   linkedin: dhanasekar95
   
@@ -61,7 +61,7 @@ share-links-active:
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "dhanasekar312213@gmail.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "firstname.lastname@duke.edu"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
