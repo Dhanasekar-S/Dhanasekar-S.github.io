@@ -25,7 +25,7 @@ description: Junior Undergrad|Researcher
 navbar-links:
   #About Me: "aboutme"
   
-  Publications: "https://dhanasekar-s.github.io/publications/"
+  #Publications: "https://dhanasekar-s.github.io/publications/"
   Certifications: "https://dhanasekar-s.github.io/Certifications/" 
   Projects: "https://dhanasekar-s.github.io/projects/"
    # - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
