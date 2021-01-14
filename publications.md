@@ -3,6 +3,28 @@ layout: page
 title: Publications
 ---
 
+<h1>Methods for Numeracy-Preserving Word Embeddings</h1>
+<h2><a href="https://www.aclweb.org/anthology/2020.emnlp-main.384/" target="_blank">EMNLP 2020</a></h2>
+
+<h3> Dhanasekar Sundararaman, Shijing Si, Vivek Subramanian, Guoyin Wang, Devamanyu Hazarika, Lawrence Carin</h3>
+<h4>Appeared in the Proceedings for EMNLP 2020</h4>
+
+<b>Abstract:</b>
+Word embedding models are typically able to capture the semantics of words via the distributional hypothesis, but fail to capture the numerical properties of numbers that appear in the text. This leads to problems with numerical reasoning involving tasks such as question answering. We propose a new methodology to assign and learn embeddings for numbers. Our approach creates Deterministic, Independent-of-Corpus Embeddings (the model is referred to as DICE) for numbers, such that their cosine similarity reflects the actual distance on the number line. DICE outperforms a wide range of pre-trained word embedding models across multiple examples of two tasks: (i) evaluating the ability to capture numeration and magnitude; and (ii) to perform list maximum, decoding, and addition. We further explore the utility of these embeddings in downstream tasks, by initializing numbers with our approach for the task of magnitude prediction. We also introduce a regularization approach to learn model-based embeddings of numbers in a contextual setting.<br>
+<br>
+<br>
+
+
+<h1>Syntax-Infused Transformer and BERT models for Machine Translation and Natural Language Understanding</h1>
+<h2><a href="http://www.acl2019.org/EN/index.xhtml" target="_blank">Association for Computational Linguistics 2019</a>, Florence, Italy</h2>
+
+<h3> Dhanasekar Sundararaman, Vivek Subramanian, Guoyin Wang, Shijing Si, Dinghan Shen, Dong Wang, Lawrence Carin</h3>
+<b>Abstract:</b>
+Attention-based models have shown significant improvement over traditional algorithms in several NLP tasks. The Transformer, for instance, is an illustrative example that generates abstract representations of tokens inputted to an encoder based on their relationships to all tokens in a sequence. Recent studies have shown that although such models are capable of learning syntactic features purely by seeing examples, explicitly feeding this information to deep learning models can significantly enhance their performance. Leveraging syntactic information like part of speech (POS) may be particularly beneficial in limited training data settings for complex models such as the Transformer. We show that the syntax-infused Transformer with multiple features achieves an improvement of 0.7 BLEU when trained on the full WMT 14 English to German translation dataset and a maximum improvement of 1.99 BLEU points when trained on a fraction of the dataset. In addition, we find that the incorporation of syntax into BERT fine-tuning outperforms baseline on a number of downstream tasks from the GLUE benchmark.<br>
+<br>
+<br>
+
+
 <h1>Learning Compressed Sentence Representations for On-Device Text Processing</h1>
 <h2><a href="http://www.acl2019.org/EN/index.xhtml" target="_blank">Association for Computational Linguistics 2019</a>, Florence, Italy</h2>
 
@@ -39,40 +61,5 @@ score through a novel clustering algorithm. The connectivity between profiles is
 <h3><a href="https://link.springer.com/chapter/10.1007/978-3-319-68557-1_27" target="_blank">Pdf</a> </h3>
   <b>Abstract:</b>
 In this work, an efficient vehicle tracking system is designed and implemented for tracking the movement of any vehicle from any location and time. The proposed system uses popular technology that combines a smartphone application with a microcontroller that is inexpensive compared to others. The users will be able to continuously monitor a moving vehicle on demand using the Smartphone application and determine the estimated distance and time for the vehicle to arrive at a given destination. Apart from this, the system is designed further to account for the case of failing to catch one’s vehicle by dynamically suggesting a new vehicle within one’s reach with an estimated time and a route. The data collected is effectively used to predict the estimated arrival time of the vehicles using sophisticated machine learning technique Artificial Neural Networks (ANN). While there are other systems on vehicle tracking, we present a vehicle tracking, dynamic route suggestion on failing to catch one’s vehicle and intelligent arrival time prediction system together making it a comprehensive system for users. The feasibility and effectiveness of the system are presented through experimental results of the vehicle tracking system and some experiences on practical implementations.<br>
-<br>
-<br>
-
-<h1>An analysis of nonimmigrant work visas in the USA using Machine Learning</h1>
-
-<h2>International Conference on Compute and Data Analysis</h2>
-
-<h3>Dhanasekar Sundararaman, Nabarun Pal, Aashish Kumar Misraa</h3>
-
-<h3><a href="https://Dhanasekar-S.github.io/research/3paper.pdf" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/Dhanasekar-S/visa_analysis" target="_blank">Code base and Results</a></h3>
-<b>Abstract:</b>
-High-skilled immigrants are a very important factor in US innovation and entrepreneurship, accounting for roughly a quarter of US workers in fields such as computer science and delivering in terms of patents or firm starts. Their contributions to the US is rapidly increasing in the past three decades and are found to be well trained and skilled on average than their native counterparts. While the impact of these high-skilled workers is signified, the way in which they compete to enter a tech hub like the US is rather not fair. H-1B, the work visa to import high-skilled workers, is not used for high skilled anymore but rather used to import cheap labor to displace native workers in many cases. Many billionaires, experts, pundits and even the government are looking for many amendments in H-1B to abolish this by bringing in a merit system or increasing the minimum wages to awarding these visas. We attempt to analyze the petitions filed from 2011-16 and classify the petitions filed as positive or negative, indicating whether the petition is highly skilled or not. After classifying, we build a model using Random forests to predict any visa petition in any state of US as positive or negative. Experimental results show the top companies that are classified as abusing these visas are well consistent with the ones shown in reports and news articles.
-<br>
-<br>
-
-<h1>TweetIT- Analyzing Topics for Twitter Users to garner Maximum Attention</h1>
-
-<h2>International Conference on Machine Learning and Soft Computing, Vietnam</h2>
-
-<h3>Dhanasekar Sundararaman, Priya Arora, Vishwanath Seshagiri</h3>
-<h3><a href="https://dl.acm.org/citation.cfm?id=3184093" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Twitter-Topic-Detection" target="_blank">Code base and Results</a></h3>
-<b>Abstract:</b> 
-Twitter, a microblogging service, is today’s most popular platform for communication in the form of short text messages, called
-Tweets. Users use Twitter to publish their content either for expressing concerns on information news or views on daily conversations. When this expression emerges, they are experienced by the worldwide distribution network of users and not only by the interlocutor(s). Depending upon the impact of the tweet in the form of the likes, retweets and percentage of followers increases for the user considering a window of time frame, we compute attention factor for each tweet for the selected user profiles. This factor is used to select the top 1000 Tweets, from each user profile, to form a document. Topic modelling is then applied to this document to determine the intent of the user behind the Tweets. After topics are modeled, the similarity is determined between the BBC news dataset containing the modeled topic, and the user document under evaluation. Finally, we determine the top words for a user which would enable us to find the topics which garnered attention and has been posted recently. The experiment is performed using more than 1.1M Tweets from around 500 Twitter profiles spanning Politics,Entertainment, Sports etc. and hundreds of BBC news articles. The results show that our analysis is efficient enough to enable us to find the topics which would act as a suggestion for users to get higher popularity rating for the user in the future.
-<br>
-<br>
-
-<h1>YouTree- A Visualization Paradigm of Statistically and Textually Similar Videos.</h1>
-
-<h2>International Conference on Intelligent Computing and Applications, Australia</h2>
-
-<h3>Dhanasekar Sundararaman, Vishwanath Seshagiri, Balaji Ramesh, Priya Arora</h3>
-<h3><a href="https://dl.acm.org/citation.cfm?id=3177467" target="_blank">Pdf</a>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://gitlab.com/thebrahminator/Youtube-View-Predictor" target="_blank">Code base and Results</a></h3>
-<b>Abstract:</b> 
-The rise of social media usage in the form of multimedia is on an exponential increase lately owing to the increased internet bandwidths in the recent past. As a result, people communicate in the form of videos and images a lot more than ever. One such video sharing and content developer platform is Youtube. Youtube have many features on video analytics in the form of recommendation systems, monetization etc. It also offers many features for developers to evaluate their content and offer insights on the performance of their videos. Though these features are available, there is not a feature for developers to evaluate their content based on the performance of other’s videos, which share the same nature of content, the similarity between any two videos. Here, the similarity between two videos has a statistical measure apart from the content, which includes the description and comments of a video. Thus, we propose statistical and textual similarity analysis between a query video and a range of videos to determine the most similar videos both textually and statistically. The statistical similarity is evident from the number of derived features extracted from a video and the textual similarity is found by analyzing the text data from the description and comments of a video. Experimental results show that, the resultant similar videos are highly representative of both the statistical and textual similarity and can be used as a measure to compare two videos.
 <br>
 <br>
