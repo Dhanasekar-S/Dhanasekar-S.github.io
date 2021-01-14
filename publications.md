@@ -16,7 +16,6 @@ Word embedding models are typically able to capture the semantics of words via t
 
 
 <h1>Syntax-Infused Transformer and BERT models for Machine Translation and Natural Language Understanding</h1>
-<h2><a href="http://www.acl2019.org/EN/index.xhtml" target="_blank">Association for Computational Linguistics 2019</a>, Florence, Italy</h2>
 
 <h3> Dhanasekar Sundararaman, Vivek Subramanian, Guoyin Wang, Shijing Si, Dinghan Shen, Dong Wang, Lawrence Carin</h3>
 <b>Abstract:</b>
