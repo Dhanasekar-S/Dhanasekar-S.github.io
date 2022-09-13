@@ -203,7 +203,79 @@
                             <em>The 2021 Conference on Empirical Methods in Natural Language Processing. <a href="https://aclanthology.org/2021.findings-emnlp.375.pdf" target="_blank">[Paper]</a> 
                             </em>
                             </p>
-                            <p>It has been shown that training multi-task models with auxiliary tasks can improve the target task quality through cross-task transfer. However, the importance of each auxiliary task to the primary task is likely not known a priori. While the importance weights of auxiliary tasks can be manually tuned, it becomes practically infeasible with the number of tasks scaling up. To address this, we propose a search method that automatically assigns importance weights. We formulate it as a reinforcement learning problem and learn a task sampling schedule based on the evaluation accuracy of the multi-task model. Our empirical evaluation on XNLI and GLUE shows that our method outperforms uniform sampling and the corresponding single-task baseline..</p>
+                            <p>It has been shown that training multi-task models with auxiliary tasks can improve the target task quality through cross-task transfer. However, the importance of each auxiliary task to the primary task is likely not known a priori. While the importance weights of auxiliary tasks can be manually tuned, it becomes practically infeasible with the number of tasks scaling up. To address this, we propose a search method that automatically assigns importance weights. We formulate it as a reinforcement learning problem and learn a task sampling schedule based on the evaluation accuracy of the multi-task model. Our empirical evaluation on XNLI and GLUE shows that our method outperforms uniform sampling and the corresponding single-task baseline.</p>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/dem_unc_boost.png' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Syntactic Knowledge-Infused Transformer and BERT Models</papertitle></big>
+                            <br>
+                            <p>
+                            <em>International Conference on Information and Knowledge Management. <a href="http://ceur-ws.org/Vol-3052/short21.pdf" target="_blank">[Paper]</a> 
+                            </em>
+                            </p>
+                            <p>Attention-based deep learning models have demonstrated significant improvement over traditional algorithms in several NLP tasks. The Transformer, for instance, is an illustrative example that generates abstract representations of tokens that are input to an encoder based on their relationships to all tokens in a sequence. While recent studies have shown that such models are capable of learning syntactic features purely by seeing examples, we hypothesize that explicitly feeding this information to deep learning models can significantly enhance their performance in many cases. Leveraging syntactic information like part of speech (POS) may be particularly beneficial in limited-training-data settings for complex models such as the Transformer. In this paper, we verify this hypothesis by infusing syntactic knowledge into the Transformer. We find that this syntax-infused Transformer achieves an improvement of 0.7 BLEU when trained on the full WMT’14 English to German translation dataset and a maximum improvement of 1.99 BLEU points when trained on a fraction of the dataset. In addition, we find that the incorporation of syntax into BERT fine-tuning outperforms BERTBASE on all downstream tasks from the GLUE benchmark, including an improvement of 0.8% on CoLA.</p>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/dem_unc_boost.png' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Methods for Numeracy-Preserving Word Embeddings</papertitle></big>
+                            <br>
+                            <p>
+                            <em>The 2020 Conference on Empirical Methods in Natural Language Processing. <a href="https://aclanthology.org/2020.emnlp-main.384.pdf" target="_blank">[Paper]</a> 
+                            </em>
+                            </p>
+                            <p>Word embedding models are typically able to capture the semantics of words via the distributional hypothesis, but fail to capture the numerical properties of numbers that appear in the text. This leads to problems with numerical reasoning involving tasks such as question answering. We propose a new methodology to assign and learn embeddings for numbers. Our approach creates Deterministic, Independent-of-Corpus Embeddings (the model is referred to as DICE) for numbers, such that their cosine similarity reflects the actual distance on the number line. DICE outperforms a wide range of pre-trained word embedding models across multiple examples of two tasks:(i) evaluating the ability to capture numeration and magnitude; and (ii) to perform list maximum, decoding, and addition. We further explore the utility of these embeddings in downstream tasks, by initializing numbers with our approach for the task of magnitude prediction. We also introduce a regularization approach to learn model-based embeddings of numbers in a contextual setting.</p>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/dem_unc_boost.png' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Learning compressed sentence representations for on-device text processing</papertitle></big>
+                            <br>
+                            <p>
+                            <em>The 2019 Conference on Association for Computational Linguistics. <a href="https://aclanthology.org/P19-1011.pdf" target="_blank">[Paper]</a> 
+                            </em>
+                            </p>
+                            <p>Vector representations of sentences, trained on massive text corpora, are widely used as generic sentence embeddings across a variety of NLP problems. The learned representations are generally assumed to be continuous and real-valued, giving rise to a large memory footprint and slow retrieval speed, which hinders their applicability to low-resource (memory and computation) platforms, such as mobile devices. In this paper, we propose four different strategies to transform continuous and generic sentence embeddings into a binarized form, while preserving their rich semantic information. The introduced methods are evaluated across a wide range of downstream tasks, where the binarized sentence embeddings are demonstrated to degrade performance by only about 2% relative to their continuous counterparts, while reducing the storage requirement by over 98%. Moreover, with the learned binary representations, the semantic relatedness of two sentences can be evaluated by simply calculating their Hamming distance, which is more computational efficient compared with the inner product operation between continuous embeddings. Detailed analysis and case study further validate the effectiveness of proposed methods.</p>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/dem_unc_boost.png' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Twigraph: Discovering and Visualizing Influential Words Between Twitter Profiles</papertitle></big>
+                            <br>
+                            <p>
+                            <em>The 2017 International Conference on Social Informatics. <a href="https://arxiv.org/ftp/arxiv/papers/1706/1706.05361.pdf" target="_blank">[Paper]</a> 
+                            </em>
+                            </p>
+                            <p>The social media craze is on an ever increasing spree, and people are
+connected with each other like never before, but these vast connections are visually unexplored. We propose a methodology Twigraph to explore the connections
+between persons using their Twitter profiles. First, we propose a hybrid approach of recommending social media profiles, articles, and advertisements to a user.
+The profiles are recommended based on the similarity score between the user profile, and profile under evaluation. The similarity between a set of profiles is
+investigated by finding the top influential words thus causing a high similarity through an Influence Term Metric for each word. Then, we group profiles of various domains such as politics, sports, and entertainment based on the similarity score through a novel clustering algorithm. The connectivity between profiles is envisaged using word graphs that help in finding the words that connect a set of profiles and the profiles that are connected to a word. Finally, we analyze the top influential words over a set of profiles through clustering by finding the similarity of that profiles enabling to break down a Twitter profile with a lot of followers to fine level word connections using word graphs. The proposed method was implemented on datasets comprising 1.1 M Tweets obtained from Twitter. Experimental results show that the resultant influential words were highly representative of the relationship between two profiles or a set of profiles.</p>
                         </td>
                     </tr>
 
