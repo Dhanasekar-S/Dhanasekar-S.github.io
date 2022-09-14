@@ -23,6 +23,7 @@
     <link rel="icon" type="image/Dharun_dp.jpg" href="images/Dharun_dp.jpg">
 </head>
 <body class="bg_colour">
+<h1> Dhanasekar Sundararaman </h1>
     <table border=0 class="bg_colour" style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr style="padding:0px">
             <td style="padding:0px">
@@ -37,7 +38,7 @@
                         </td>
                         <td style="padding:2.5%;width:60%;vertical-align:middle">
                             <p style="text-align:center">
-                                <h1  style="text-align:center"><name>Dhanasekar Sundararaman</name></h1>
+                                <h1  style="text-align:center"><name></name></h1>
                             </p>
                             <p style="text-align:center">
                             &nbsp|&nbsp
@@ -176,6 +177,21 @@
 
                 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+					<tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/bias.jpg' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>Exploring Gender Bias in Retrieval Models</papertitle></big>
+                            <br>
+                            <p><em>Arxiv Preprint <a href="https://arxiv.org/pdf/2208.01755.pdf" target="_blank">[preprint]</a></em></p>
+                            <p>Biases in culture, gender, ethnicity, etc. have existed for decades and have affected many areas of human social interaction. These biases have been shown to impact machine learning (ML) models, and for natural language processing (NLP), this can have severe consequences for downstream tasks. Mitigating gender bias in information retrieval (IR) is important to avoid propagating stereotypes. In this work, we employ a dataset consisting of two components: (1) relevance of a document to a query and (2) "gender" of a document, in which pronouns are replaced by male, female, and neutral conjugations. We definitively show that pre-trained models for IR do not perform well in zero-shot retrieval tasks when full fine-tuning of a large pre-trained BERT encoder is performed and that lightweight fine-tuning performed with adapter networks improves zero-shot retrieval performance almost by 20% over baseline. We also illustrate that pre-trained models have gender biases that result in retrieved articles tending to be more often male than female. We overcome this by introducing a debiasing technique that penalizes the model when it prefers males over females, resulting in an effective model that retrieves articles in a balanced fashion across genders.</p>
+                        </td>
+                    </tr>
+					
                     <tr>
                         <td style="padding:20px;width:25%;vertical-align:middle">
                             <div class="one">
@@ -221,6 +237,23 @@
                             </em>
                             </p>
                             <p>Attention-based deep learning models have demonstrated significant improvement over traditional algorithms in several NLP tasks. The Transformer, for instance, is an illustrative example that generates abstract representations of tokens that are input to an encoder based on their relationships to all tokens in a sequence. While recent studies have shown that such models are capable of learning syntactic features purely by seeing examples, we hypothesize that explicitly feeding this information to deep learning models can significantly enhance their performance in many cases. Leveraging syntactic information like part of speech (POS) may be particularly beneficial in limited-training-data settings for complex models such as the Transformer. In this paper, we verify this hypothesis by infusing syntactic knowledge into the Transformer. We find that this syntax-infused Transformer achieves an improvement of 0.7 BLEU when trained on the full WMT’14 English to German translation dataset and a maximum improvement of 1.99 BLEU points when trained on a fraction of the dataset. In addition, we find that the incorporation of syntax into BERT fine-tuning outperforms BERTBASE on all downstream tasks from the GLUE benchmark, including an improvement of 0.8% on CoLA.</p>
+                        </td>
+                    </tr>
+					
+					<tr>
+                        <td style="padding:20px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/lexical.jpg' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:20px;width:75%;vertical-align:top">
+                            <papertitle><big>How do lexical semantics affect translation? An empirical study</papertitle></big>
+                            <br>
+                            <p>
+                            <em>Arxiv Preprint. <a href="https://arxiv.org/pdf/2201.00075.pdf" target="_blank">[Preprint]</a> 
+                            </em>
+                            </p>
+                            <p>Neural machine translation (NMT) systems aim to map text from one language into another. While there are a wide variety of applications of NMT, one of the most important is translation of natural language. A distinguishing factor of natural language is that words are typically ordered according to the rules of the grammar of a given language. Although many advances have been made in developing NMT systems for translating natural language, little research has been done on understanding how the word ordering of and lexical similarity between the source and target language affect translation performance. Here, we investigate these relationships on a variety of low-resource language pairs from the OpenSubtitles2016 database, where the source language is English, and find that the more similar the target language is to English, the greater the translation performance. In addition, we study the impact of providing NMT models with part of speech of words (POS) in the English sequence and find that, for Transformer-based models, the more dissimilar the target language is from English, the greater the benefit provided by POS..</p>
                         </td>
                     </tr>
 					
