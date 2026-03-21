@@ -231,67 +231,250 @@ data-toggle="collapse" data-target="#content-publications" id="publications">
 
 <table style="width:100%">
 
+```html
 <tbody>
-
 
 <!-- NEW PAPER 1 -->
 
 <tr>
+    <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+            <img src='images/locus.jpg' width="120">
+        </div>
+    </td>
 
-<td style="padding:20px;width:25%">
-<img src="images/locus.jpg" width="120">
-</td>
+    <td style="padding:20px;width:75%;vertical-align:top">
+        <papertitle>
+            <big>LOCUS: A System and Method for Low-Cost Customization for Universal Specialization</big>
+        </papertitle>
+        <br>
 
-<td style="padding:20px;width:75%">
+        <p>
+            <em>
+                Arxiv Preprint
+                <a href="https://arxiv.org/abs/2512.06239" target="_blank">[Preprint]</a>
+            </em>
+        </p>
 
-<papertitle>
-<big>LOCUS: A System and Method for Low-Cost Customization for Universal Specialization</big>
-</papertitle>
+        <p>
+            We present LOCUS (LOw-cost Customization for Universal Specialization), a pipeline that consumes few-shot data to streamline the construction and training of NLP models through targeted retrieval, synthetic data generation, and parameter-efficient tuning. With only a small number of labeled examples, LOCUS discovers pertinent data in a broad repository, synthesizes additional training samples via in-context data generation, and fine-tunes models using either full or low-rank (LoRA) parameter adaptation. Our approach targets named entity recognition (NER) and text classification (TC) benchmarks, consistently outperforming strong baselines (including GPT-4o) while substantially lowering costs and model sizes.
+        </p>
 
-<p>
-<em>Arxiv Preprint
-<a href="https://arxiv.org/abs/2512.06239" target="_blank">[Preprint]</a>
-</em>
-</p>
-
-<p>
-We present LOCUS (LOw-cost Customization for Universal Specialization), a pipeline that consumes few-shot data to streamline the construction and training of NLP models through targeted retrieval, synthetic data generation, and parameter-efficient tuning.
-</p>
-
-</td>
-
+        <p>
+            Our resultant memory-optimized models retain 99% of fully fine-tuned accuracy while using barely 5% of the memory footprint, also beating GPT-4o on several benchmarks with less than 1% of its parameters.
+        </p>
+    </td>
 </tr>
+
 
 
 <!-- NEW PAPER 2 -->
 
 <tr>
+    <td style="padding:20px;width:25%;vertical-align:middle">
+        <div class="one">
+            <img src='images/caos.jpg' width="120">
+        </div>
+    </td>
 
-<td style="padding:20px;width:25%">
-<img src="images/caos.jpg" width="120">
+    <td style="padding:20px;width:75%;vertical-align:top">
+
+        <papertitle>
+            <big>Evaluating Hallucination in Large Vision-Language Models based on Context-Aware Object Similarities</big>
+        </papertitle>
+
+        <br>
+
+        <p>
+            <em>
+                AAAI PDLM 2025
+                <a href="https://arxiv.org/abs/2501.15046" target="_blank">[Preprint]</a>
+            </em>
+        </p>
+
+        <p>
+            Large vision-language models (LVLMs) tend to suffer from hallucinations where generated objects do not exist in the image. We present Context-Aware Object Similarities (CAOS), a framework for evaluating hallucination in LVLMs using object statistics and semantic relationships between generated captions and ground-truth objects.
+        </p>
+
+        <p>
+            CAOS also detects out-of-domain hallucinated objects using language model–based recognition and verifies them through an ensemble of LVLMs. The framework analyzes sequential object generation dynamics and semantic relationships to provide deeper insight into hallucination behavior.
+        </p>
+
+    </td>
+</tr>
+
+
+
+<!-- EXISTING PAPERS (UNCHANGED) -->
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/bias.jpg' width="120">
+</div>
 </td>
 
-<td style="padding:20px;width:75%">
+<td style="padding:20px;width:75%;vertical-align:top">
 
-<papertitle>
-<big>Evaluating Hallucination in Large Vision-Language Models based on Context-Aware Object Similarities</big>
-</papertitle>
+<papertitle><big>Exploring Gender Bias in Retrieval Models</big></papertitle>
+
+<br>
 
 <p>
-<em>AAAI PDLM 2025
-<a href="https://arxiv.org/abs/2501.15046" target="_blank">[Preprint]</a>
+<em>
+Arxiv Preprint
+<a href="https://arxiv.org/pdf/2208.01755.pdf" target="_blank">[preprint]</a>
 </em>
 </p>
 
 <p>
-We present Context-Aware Object Similarities (CAOS), a framework for evaluating hallucinations in LVLMs by combining object statistics with semantic relationships between generated captions and ground-truth objects.
+Biases in culture, gender, ethnicity, etc. have existed for decades and have affected many areas of human social interaction. These biases have been shown to impact machine learning (ML) models.
 </p>
 
 </td>
+</tr>
 
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/nuer.jpg' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>Improving Downstream Task Performance by Treating Numbers as Entities</big></papertitle>
+
+<br>
+
+<p>
+<em>
+International Conference on Information and Knowledge Management '22
+<a href="https://arxiv.org/pdf/2205.03559.pdf" target="_blank">[preprint]</a>
+</em>
+</p>
+
+</td>
+</tr>
+
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/ur.png' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>Learning Task Sampling Policy for Multitask Learning</big></papertitle>
+
+<br>
+
+<p>
+<em>
+EMNLP 2021
+<a href="https://aclanthology.org/2021.findings-emnlp.375.pdf" target="_blank">[Paper]</a>
+</em>
+</p>
+
+</td>
+</tr>
+
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/featuresum.png' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>Syntactic Knowledge-Infused Transformer and BERT Models</big></papertitle>
+
+</td>
+</tr>
+
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/lexical.jpg' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>How do lexical semantics affect translation? An empirical study</big></papertitle>
+
+</td>
+</tr>
+
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/vecproj2d.png' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>Methods for Numeracy-Preserving Word Embeddings</big></papertitle>
+
+</td>
+</tr>
+
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/bemb.jpg' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>Learning compressed sentence representations for on-device text processing</big></papertitle>
+
+</td>
+</tr>
+
+
+
+<tr>
+
+<td style="padding:20px;width:25%;vertical-align:middle">
+<div class="one">
+<img src='images/twigraph.jpg' width="120">
+</div>
+</td>
+
+<td style="padding:20px;width:75%;vertical-align:top">
+
+<papertitle><big>Twigraph: Discovering and Visualizing Influential Words Between Twitter Profiles</big></papertitle>
+
+</td>
 </tr>
 
 </tbody>
+```
+
 </table>
 
 </div>
